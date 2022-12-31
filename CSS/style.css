@@ -20,17 +20,49 @@ h1 {
     color: white;
       }
 li a:hover {
-    background-color: #111;
+    color: rgba(255, 255, 255, 0.426);
        }
 
 main img {
 width: 200px;  
 height: auto ;
+  }
+
+.nav-list {
+display: flex;
+justify-content:flex-end ;
+background: rgba(17, 17, 17, 0.113);
+margin: 0%;
+padding: 1rem 0;
+align-items: center;
 }
-       
+
+.nav-item {
+list-style: none;
+margin-right: 2rem;
+}
+
+.nav-item a {
+text-decoration: none;
+color: black;
+transition: 200ms ease-in;
+}
+
+.nav-item:first-child {
+margin-right: auto;
+margin-left: 1rem;
+}
 
 
 
+
+
+
+
+
+
+/* Code that could help with header  */
+/* padding: 32px; */
 
 
 
