@@ -97,6 +97,52 @@ color: rgba(255, 255, 255, 0.426);
  text-align: center; 
 }
 
+.container-social {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding-top: 200px;
+}
+.container-social li {
+list-style: none;
+margin-right: 0.8rem;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Code that could help with header  */
