@@ -102,14 +102,22 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding-top: 200px;
+margin: 10px;
+position: relative;
+bottom: 1px;
+width: 100%;
 }
+
 .container-social li {
 list-style: none;
 margin-right: 0.8rem;
 } 
 
-
+div .contactus {
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+}
 
 
 
