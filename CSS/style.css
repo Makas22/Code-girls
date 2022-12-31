@@ -23,7 +23,10 @@ li a:hover {
     background-color: #111;
        }
 
-
+main img {
+width: 200px;  
+height: auto ;
+}
        
 
 
