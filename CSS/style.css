@@ -1,81 +1,87 @@
 * {
-  margin : 0px;
-  padding : 0px;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #EEA29A;
+  background-color: #eea29a;
   width: 100%;
   min-height: 100vh;
-  }
+}
 
 html {
-    font-size: 16px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-    }
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
 
 h1 {
-    color: white;
-      }
+  color: white;
+}
 li a:hover {
-    color: rgba(255, 255, 255, 0.426);
-       }
+  color: rgba(255, 255, 255, 0.426);
+}
 
 main img {
-width: 200px;  
-height: auto ;
-  }
+  width: 200px;
+  height: auto;
+}
 
 .nav-list {
-display: flex;
-justify-content:flex-end ;
-background: rgba(17, 17, 17, 0.113);
-margin: 0%;
-padding: 1rem 0;
-align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  background: rgba(17, 17, 17, 0.113);
+  margin: 0%;
+  padding: 1rem 0;
+  align-items: center;
 }
 
 .nav-item {
-list-style: none;
-margin-right: 2rem;
+  list-style: none;
+  margin-right: 2rem;
 }
 
 .nav-item a {
-text-decoration: none;
-color: black;
-transition: 200ms ease-in;
+  text-decoration: none;
+  color: black;
+  transition: 200ms ease-in;
 }
 
 .nav-item:first-child {
-margin-right: auto;
-margin-left: 1rem;
+  margin-right: auto;
+  margin-left: 1rem;
 }
 
+.container {
+  display: grid;
+  grid-gap: 0.2rem;
+  height: 50vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 0.5fr 1fr;
+}
+.container img {
+  max-height: 330px;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border: solid white;
+}
 
+.grid-colour {
+  background-color: aqua;
+}
 
-
-
-
-
-
+/* Helps when screen size decreases  */
+@media screen and (max-width: 550px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
 
 /* Code that could help with header  */
 /* padding: 32px; */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ul {
  font-family: Arial, Verdana;
@@ -142,12 +148,6 @@ background-color: #333;
 }
 .socials a {
 } */
-
- 
- 
-
-
-
 
 /* Repeat code? */
 /* * {
