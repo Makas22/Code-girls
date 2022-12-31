@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #eea29a;
+  background-color: #f9a971 ;
   width: 100%;
   min-height: 100vh;
 }
@@ -17,7 +17,7 @@ html {
 }
 
 h1 {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 li a:hover {
   color: rgba(255, 255, 255, 0.426);
@@ -31,7 +31,7 @@ main img {
 .nav-list {
   display: flex;
   justify-content: flex-end;
-  background: rgba(17, 17, 17, 0.113);
+  background: rgba(255, 255, 255, 0.68);
   margin: 0%;
   padding: 1rem 0;
   align-items: center;
@@ -50,12 +50,14 @@ main img {
 
 .nav-item:first-child {
   margin-right: auto;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
 
 .container {
   display: grid;
   grid-gap: 0.2rem;
+  padding-top: 100px;
+  padding-bottom: 500px;
   height: 50vh;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 0.5fr 1fr;
@@ -79,6 +81,23 @@ main img {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
+
+div a {
+  text-decoration: none;
+  color: black;
+  transition: 200ms ease-in;
+
+}
+
+div a:hover {
+color: rgba(255, 255, 255, 0.426);
+}
+
+.container h3 {
+ text-align: center; 
+}
+
+
 
 /* Code that could help with header  */
 /* padding: 32px; */
