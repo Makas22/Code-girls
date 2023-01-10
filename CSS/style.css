@@ -159,20 +159,19 @@ margin-right: 0.8rem;
 #contactus2 {
   display: flex;
   justify-content: center;
-  margin-top: 170px;
+  /* margin-top: 170px; */
 }
 
 /* topics contact us pages  */
 #contactus-topics {
   display: flex;
   justify-content: center;
-  margin-top: 360px;
+  margin-top: 560px;
 }
 .subscribe-section {
   display: flex;
   justify-content: center;
 }
-
 
 
 
